@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+/* 분해합  */
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+
+		System.out.println(consFunc(N));
+
+		String strNum = "1234456";
+		char[] numUnit = strNum.toCharArray();
+
+		int tmp=0;
+		for (char unit : numUnit) {
+			System.out.println(unit +", " + tmp);
+			tmp += (int) unit;
+		}
+		System.out.println(tmp);
+		
+		sc.close();
+	}
+
+	private static int consFunc(int N) {
+		int answer = 0;
+
+		int num = 1;
+		while (num < N) {
+			String strNum = Integer.toString(num);
+			char[] numUnit = strNum.toCharArray();
+
+			int tmp = num;
+			for (char unit : numUnit) {
+				tmp += unit;
+			}
+
+			if (tmp == N)
+				return num;
+
+			num++;
+		}
+
+		return answer;
+	}
+}

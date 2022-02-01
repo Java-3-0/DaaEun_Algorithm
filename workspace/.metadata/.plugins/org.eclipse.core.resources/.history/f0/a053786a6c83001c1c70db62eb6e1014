@@ -47,7 +47,6 @@ public class Main {
 				if(bodyRank[j] == i) {
 					int tmpCm = kgCm[j][1];
 				}
-				//@@@@@@@@@ 머릿속 멘붕...
 				
 			}
 		}

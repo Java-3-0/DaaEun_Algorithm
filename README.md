@@ -17,9 +17,12 @@ DaaEun Algorithm
 ## 🚥 진행 테이블
 |Date|No.|Name|category|state|
 |:-:|:-:|:-:|:-:|:-:|
-|2022.01.29|10872|팩토리얼|재귀|⭕️|
-|2022.01.30|10870|피보나치 수 5|재귀|⭕️|
-|2022.01.31|2447|별찍기|재귀|💢|
+|2022.01.29|[10872](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10872/src)|팩토리얼|재귀|⭕️|
+|2022.01.30|[10870](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10870/src)|피보나치 수 5|재귀|⭕️|
+|2022.01.31|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀|💢|
+|2022.02.01|[2798](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2798/src)|블랙잭|브루트 포스|⭕️|
+|2022.02.01|[2231](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2231/src)|분해합|브루트 포스|⭕️|
+|2022.02.01|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스|💢|
 ||||||
 |2022.01.29|10872|팩토리얼|재귀|❌|
 |2022.01.29|10872|팩토리얼|재귀|🔺|

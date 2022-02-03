@@ -24,10 +24,9 @@ DaaEun Algorithm
 |2022.02.01|[2231](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2231/src)|분해합|브루트 포스|⭕️|
 |2022.02.01|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스|💢|
 |2022.02.02|[11729](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11729/src)|하노이 탑 이동 순서|재귀|⭕️|
-||||||
-|2022.01.29|10872|팩토리얼|재귀|❌|
-|2022.01.29|10872|팩토리얼|재귀|🔺|
+|2022.02.03|[1018](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1018/src)|체스판 다시 칠하기|브루트 포스|⭕️|
+|2022.02.04|1436|영화감독 숌|브루트 포스|❌|
 
 
-## ❔문제 출처
+## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

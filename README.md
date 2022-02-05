@@ -110,6 +110,8 @@ DaaEun Algorithm
 |2022.02.02|[11729](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11729/src)|하노이 탑 이동 순서|재귀|⭕️|
 |2022.02.03|[1018](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1018/src)|체스판 다시 칠하기|브루트 포스|⭕️|
 |2022.02.04|1436|영화감독 숌|브루트 포스|❌|
+|2022.02.05|[10828](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10828/src)|스택|스택|⭕️|
+|2022.02.05|[10773](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10773/src)|괄호|스택|⭕️|
 
 
 ## ❔ 문제 출처
@@ -117,4 +119,4 @@ DaaEun Algorithm
 
 
 * * *
-###### *PTB(Powers That Be)
+###### *PTB(Powers That Be) = 담당자

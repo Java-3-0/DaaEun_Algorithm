@@ -4,14 +4,98 @@ DaaEun Algorithm
 
 
 ## 🤜 잡아[3][0] 스터디그룹 🤛   
-🖋 목표 : JAVA로 능숙한 알고리즘 풀이를 구현하며 설명할 수 있다.   
-🖋 조원 : 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👨‍💻임도영 👩‍💻전선영   
+🖋 목표 1 : 백준 골드 3   
+🖋 목표 2 : 프로그래머스 레벨 3   
+🖋 목표 3 : SSAFY TEST ALL-PASS   
+🖋 조장 : 🤴임도영    
+🖋 조원 : 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
 
 
 ## 🗓 일정 
 - 2022.01.20 : 첫 만남
 - 2022.01.24 : GitHub & SAFFY GIT 생성 
-- 2022.01.24 ~ 02.04 : Baekjoon 재귀, 브루트 포스 알고리즘 9문제 Solve
+- 2022.01.24 ~ 02.04 : Baekjoon 재귀, 브루트 포스 알고리즘 9문제 Solve    
+
+<table>
+  <tr>
+    <td colspan="1"><b>2월의 계획</b></td>
+     <td colspan="3">월/ 목 10 pm.~ / 주 최소 5문제 </td>
+  </tr>
+  <tr align="center">
+    <td><b>Date</b></td>
+    <td><b>Do it!</b></td>
+    <td><b>PTB</b></td>
+    <td><b>check</b></td>
+  </tr>
+  <tr align="center">
+    <td rowspan="8" >2022.02.04</td>
+    <td>재귀_2447_별 찍기</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>브루트 포스_2798_블랙잼</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>브루트 포스_2231_분해합</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>브루트 포스_7568_덩치</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>브루트 포스_1018_체스판 다시 칠하기</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>브루트 포스_1436_영화감독 숌</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>SSAFY 2월 스터디 신청</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td>2월 스터디 계획 구체화</td>
+    <td>ALL</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2" >2022.02.07</td>
+    <td>스택_10828_스택</td>
+    <td>박영길</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td>스택_10773_제로</td>
+    <td>박기우</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td rowspan="3" >2022.02.10</td>
+    <td>스택_9012_괄호</td>
+    <td>전선영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td>스택_4949_균형잡힌 세상</td>
+    <td>양다은</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td>스택_1874_스택수열</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+</table>
 
 
 ## 🚥 진행 테이블
@@ -30,3 +114,7 @@ DaaEun Algorithm
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)
+
+
+* * *
+###### *PTB(Powers That Be)

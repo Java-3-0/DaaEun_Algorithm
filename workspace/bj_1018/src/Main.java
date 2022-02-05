@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-//import java.util.Arrays;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 // 수행시간 : 92ms
@@ -28,7 +28,7 @@ public class Main {
 					board[r][c] = 1; // W(화이트)인 경우, 1
 			}
 		}
-//		System.out.println(Arrays.deepToString(board));
+		System.out.println(Arrays.deepToString(board));
 		
 		// 보드판에서 다시 색칠해야하는 칸의 수 계산
 		// 이때, 맨 왼쪽 위 칸이 B(블랙)즉, 0인 경우로 우선 계산
@@ -42,12 +42,12 @@ public class Main {
 					board[r][c] = 2;
 			}
 		}
-//		System.out.println(Arrays.deepToString(board));
+		System.out.println(Arrays.deepToString(board));
 		
 		// 최소로 다시 칠하는 칸의 수 계산
-		int minCnt = 1250; // (50 * 50) / 2
-		for (int startR = 0; startR < n - 7; startR++) { // endR = n - 8
-			for (int startC = 0; startC < m - 7; startC++) { // endC = m - 8
+		int minCnt = 32; // (8 * 8) / 2
+		for (int startR = 0; startR < n - 7; startR++) { // 마지막 startR = n - 8
+			for (int startC = 0; startC < m - 7; startC++) { // 마지막 startC = m - 8
 //				System.out.println("["+startR+"]["+startC+"]");
 				// bestChess() : 8X8 크기의 체스판으로 잘라서 각 재색칠 칸의 갯수 계산
 				minCnt = Math.min(bestChess(startR, startC), minCnt);

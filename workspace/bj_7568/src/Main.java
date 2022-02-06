@@ -45,7 +45,7 @@ public class Main {
 		for (int i = 1; i < N; i++) {
 			for(int j=0; j<N; j++) {
 				if(bodyRank[j] == i) {
-					int tmpCm = kgCm[j][1];
+//					int tmpCm = kgCm[j][1];
 				}
 				//@@@@@@@@@ 머릿속 멘붕...
 				

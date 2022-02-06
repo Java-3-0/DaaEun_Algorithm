@@ -19,7 +19,7 @@ DaaEun Algorithm
 <table>
   <tr>
     <td colspan="1"><b>2월의 계획</b></td>
-     <td colspan="3">월/ 목 10 pm.~ / 주 최소 5문제 </td>
+     <td colspan="3">월/ 목 10 pm.~ (주 최소 5문제) </td>
   </tr>
   <tr align="center">
     <td><b>Date</b></td>
@@ -112,6 +112,9 @@ DaaEun Algorithm
 |2022.02.04|1436|영화감독 숌|브루트 포스|❌|
 |2022.02.05|[10828](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10828/src)|스택|스택|⭕️|
 |2022.02.05|[10773](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10773/src)|괄호|스택|⭕️|
+|2022.02.06|[4949](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4949/src)|균형잡힌 세상|스택|⭕️|
+|2022.02.07|[9012](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_9012/src)|괄호|스택||
+|2022.02.07|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택||
 
 
 ## ❔ 문제 출처

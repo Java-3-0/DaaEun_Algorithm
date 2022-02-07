@@ -29,79 +29,79 @@ DaaEun Algorithm
   </tr>
   <tr align="center">
     <td rowspan="8" >2022.02.04</td>
-    <td>재귀_2447_별 찍기</td>
+    <td align="left">재귀_2447_별 찍기</td>
     <td>임도영</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>브루트 포스_2798_블랙잼</td>
+    <td align="left">브루트 포스_2798_블랙잼</td>
     <td>박기우</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>브루트 포스_2231_분해합</td>
+    <td align="left">브루트 포스_2231_분해합</td>
     <td>박기우</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>브루트 포스_7568_덩치</td>
+    <td align="left">브루트 포스_7568_덩치</td>
     <td>박영길</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>브루트 포스_1018_체스판 다시 칠하기</td>
+    <td align="left">브루트 포스_1018_체스판 다시 칠하기</td>
     <td>양다은</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>브루트 포스_1436_영화감독 숌</td>
+    <td align="left">브루트 포스_1436_영화감독 숌</td>
     <td>전선영</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>SSAFY 2월 스터디 신청</td>
+    <td align="left">SSAFY 2월 스터디 신청</td>
     <td>임도영</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td>2월 스터디 계획 구체화</td>
+    <td align="left">2월 스터디 계획 구체화</td>
     <td>ALL</td>
     <td>⭕️</td>
   </tr>
   <tr align="center">
     <td rowspan="2" >2022.02.07</td>
-    <td>스택_10828_스택</td>
+    <td align="left">스택_10828_스택</td>
     <td>박영길</td>
     <td>❌</td>
   </tr>
   <tr align="center">
-    <td>스택_10773_제로</td>
+    <td align="left">스택_10773_제로</td>
     <td>박기우</td>
     <td>❌</td>
   </tr>
    <tr align="center">
     <td rowspan="5" >2022.02.10</td>
-    <td>스택_4949_균형잡힌 세상</td>
+    <td align="left">스택_4949_균형잡힌 세상</td>
     <td></td>
     <td></td>
   </tr>
   <tr align="center">
-    <td>스택_1874_스택수열</td>
+    <td align="left">스택_1874_스택수열</td>
     <td></td>
     <td></td>
   </tr>
   <tr align="center">
-    <td>스택_17298_오큰수</td>
+    <td align="left">스택_17298_오큰수</td>
     <td>임도영</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td>큐_11866_요세푸스 문제 0</td>
+    <td align="left">큐_11866_요세푸스 문제 0</td>
     <td></td>
     <td></td>
   </tr>
   <tr align="center">
-    <td>큐_1966_프린터 큐</td>
+    <td align="left">큐_1966_프린터 큐</td>
     <td></td>
     <td></td>
   </tr>
@@ -124,7 +124,7 @@ DaaEun Algorithm
 |2022.02.05|[10773](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10773/src)|괄호|스택|⭕️|
 |2022.02.06|[4949](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4949/src)|균형잡힌 세상|스택|⭕️|
 |2022.02.07|[9012](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_9012/src)|괄호|스택|⭕️|
-|2022.02.08|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택||
+|2022.02.08|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택|💢|
 |2022.02.08|[17298](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17298/src)|오큰수|스택||
 |2022.02.08|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐||
 |2022.02.08|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐||

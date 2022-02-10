@@ -1,4 +1,4 @@
-DaaEun Algorithm
+스파게리요리사🍝
 ===
 양반장의 알고리즘 생장중...
 
@@ -8,13 +8,14 @@ DaaEun Algorithm
 🖋 목표 2 : 프로그래머스 레벨 3   
 🖋 목표 3 : SSAFY TEST ALL-PASS   
 🖋 조장 : 🤴임도영    
-🖋 조원 : 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
+🖋 조원 : 👨‍💻김태윤 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
 
 
 ## 🗓 일정 
 - 2022.01.20 : 첫 만남
 - 2022.01.24 : GitHub & SAFFY GIT 생성 
-- 2022.01.24 ~ 02.04 : Baekjoon 재귀, 브루트 포스 알고리즘 9문제 Solve    
+- 2022.01.24 ~ 02.04 : Baekjoon 문제풀기
+- 2022.02.08 : 뉴 멤버 증원
 
 <table>
   <tr>
@@ -79,30 +80,35 @@ DaaEun Algorithm
     <td>박기우</td>
     <td>❌</td>
   </tr>
-   <tr align="center">
-    <td rowspan="5" >2022.02.10</td>
-    <td align="left">스택_4949_균형잡힌 세상</td>
+  <tr align="center">
+    <td rowspan="6" >2022.02.10</td>
+    <td align="left">스택_9012_괄호</td>
+    <td>양다은</td>
     <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">스택_4949_균형잡힌 세상</td>
+    <td>박기우</td>
     <td></td>
   </tr>
   <tr align="center">
     <td align="left">스택_1874_스택수열</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr align="center">
-    <td align="left">스택_17298_오큰수</td>
     <td>임도영</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">큐_11866_요세푸스 문제 0</td>
+    <td align="left">스택_17298_오큰수</td>
     <td></td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">큐_1966_프린터 큐</td>
+    <td align="left">큐_11866_요세푸스 문제 0</td>
+    <td>전선영</td>
     <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">큐_1966_프린터 큐</td>
+    <td>김태윤</td>
     <td></td>
   </tr>
 </table>
@@ -125,9 +131,11 @@ DaaEun Algorithm
 |2022.02.06|[4949](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4949/src)|균형잡힌 세상|스택|⭕️|
 |2022.02.07|[9012](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_9012/src)|괄호|스택|⭕️|
 |2022.02.08|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택|💢|
-|2022.02.08|[17298](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17298/src)|오큰수|스택||
-|2022.02.08|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐||
-|2022.02.08|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐||
+|2022.02.09|[17298](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17298/src)|오큰수|스택|⭕️|
+|2022.02.09|[18258](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_18258/src)|큐2|큐|⭕️|
+|2022.02.09|[2164](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2164/src)|카드2|큐|⭕️|
+|2022.02.09|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐|⭕️|
+|2022.02.09|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐|💢|
 
 
 ## ❔ 문제 출처

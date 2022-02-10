@@ -84,31 +84,47 @@
     <td rowspan="6" >2022.02.10</td>
     <td align="left">스택_9012_괄호</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">스택_4949_균형잡힌 세상</td>
     <td>박기우</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">스택_1874_스택수열</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">스택_17298_오큰수</td>
     <td></td>
-    <td></td>
+    <td>❌</td>
   </tr>
   <tr align="center">
     <td align="left">큐_11866_요세푸스 문제 0</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">큐_1966_프린터 큐</td>
     <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.02.14</td>
+    <td align="left">IM대비_2309_일곱난쟁이</td>
+    <td>양다은</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2605_줄 세우기</td>
+    <td>박기우</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2477_참외밭</td>
+    <td>박영길</td>
     <td></td>
   </tr>
 </table>
@@ -136,7 +152,9 @@
 |2022.02.09|[2164](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2164/src)|카드2|큐|⭕️|
 |2022.02.09|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐|⭕️|
 |2022.02.09|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐|💢|
-
+|2022.02.11|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비||
+|2022.02.11|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비||
+|2022.02.11|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

@@ -1,9 +1,11 @@
 
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
+// BJ 9012.괄호
+// 11732 kb	
+// 80 ms
 public class Main {
 
 	public static void main(String[] args) throws Exception {
@@ -19,7 +21,7 @@ public class Main {
 		}
 		System.out.println(sb.toString());
 	}
-
+	
 	private static String isChecked(char[] brackets) {
 		Stack<Character> stack = new Stack<Character>();
 		

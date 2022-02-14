@@ -152,9 +152,9 @@ DaaEun_Algorithm
 |2022.02.09|[2164](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2164/src)|카드2|큐|⭕️|
 |2022.02.09|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐|⭕️|
 |2022.02.09|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐|💢|
-|2022.02.11|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비||
-|2022.02.11|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비||
-|2022.02.11|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비||
+|2022.02.11|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비|⭕️|
+|2022.02.11|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비|⭕️|
+|2022.02.11|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비|⭕️|
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

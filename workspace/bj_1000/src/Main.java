@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+// bj 1000.A+B
+// 12848 kb
+// 108 ms
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println(sc.nextInt() + sc.nextInt());
+	}
+}

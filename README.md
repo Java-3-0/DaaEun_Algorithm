@@ -115,15 +115,36 @@ DaaEun_Algorithm
     <td rowspan="3" >2022.02.14</td>
     <td align="left">IM대비_2309_일곱난쟁이</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">IM대비_2605_줄 세우기</td>
     <td>박기우</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">IM대비_2477_참외밭</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="4" >2022.02.17</td>
+    <td align="left">IM대비_2468_안전영역</td>
+    <td>전선영</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2589_보물섬</td>
+    <td>김태윤</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_10158_개미</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_1715_카드정렬</td>
     <td>박영길</td>
     <td></td>
   </tr>
@@ -131,30 +152,35 @@ DaaEun_Algorithm
 
 
 ## 🚥 진행 테이블
-|Date|No.|Name|Category|State|
-|:-:|:-:|:-:|:-:|:-:|
-|2022.01.29|[10872](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10872/src)|팩토리얼|재귀|⭕️|
-|2022.01.30|[10870](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10870/src)|피보나치 수 5|재귀|⭕️|
-|2022.01.31|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀|💢|
-|2022.02.01|[2798](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2798/src)|블랙잭|브루트 포스|⭕️|
-|2022.02.01|[2231](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2231/src)|분해합|브루트 포스|⭕️|
-|2022.02.01|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스|💢|
-|2022.02.02|[11729](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11729/src)|하노이 탑 이동 순서|재귀|⭕️|
-|2022.02.03|[1018](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1018/src)|체스판 다시 칠하기|브루트 포스|⭕️|
-|2022.02.04|1436|영화감독 숌|브루트 포스|❌|
-|2022.02.05|[10828](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10828/src)|스택|스택|⭕️|
-|2022.02.05|[10773](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10773/src)|괄호|스택|⭕️|
-|2022.02.06|[4949](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4949/src)|균형잡힌 세상|스택|⭕️|
-|2022.02.07|[9012](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_9012/src)|괄호|스택|⭕️|
-|2022.02.08|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택|💢|
-|2022.02.09|[17298](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17298/src)|오큰수|스택|⭕️|
-|2022.02.09|[18258](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_18258/src)|큐2|큐|⭕️|
-|2022.02.09|[2164](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2164/src)|카드2|큐|⭕️|
-|2022.02.09|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐|⭕️|
-|2022.02.09|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐|💢|
-|2022.02.11|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비|⭕️|
-|2022.02.11|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비|⭕️|
-|2022.02.11|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비|⭕️|
+|Date|Site|No.|Name|Category|State|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|2022.01.29|백준|[10872](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10872/src)|팩토리얼|재귀|⭕️|
+|2022.01.30|백준|[10870](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10870/src)|피보나치 수 5|재귀|⭕️|
+|2022.01.31|백준|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀|💢|
+|2022.02.01|백준|[2798](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2798/src)|블랙잭|브루트 포스|⭕️|
+|2022.02.01|백준|[2231](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2231/src)|분해합|브루트 포스|⭕️|
+|2022.02.01|백준|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스|💢|
+|2022.02.02|백준|[11729](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11729/src)|하노이 탑 이동 순서|재귀|⭕️|
+|2022.02.03|백준|[1018](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1018/src)|체스판 다시 칠하기|브루트 포스|⭕️|
+|2022.02.04|백준|1436|영화감독 숌|브루트 포스|❌|
+|2022.02.05|백준|[10828](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10828/src)|스택|스택|⭕️|
+|2022.02.05|백준|[10773](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10773/src)|괄호|스택|⭕️|
+|2022.02.05|백준|[17478](https://github.com/DaaEun/JavaWorkspace/tree/main/bj_17478/src)|재귀함수가 뭔가요?|재귀|⭕️|
+|2022.02.06|백준|[4949](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4949/src)|균형잡힌 세상|스택|⭕️|
+|2022.02.07|백준|[9012](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_9012/src)|괄호|스택|⭕️|
+|2022.02.08|백준|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택|💢|
+|2022.02.09|백준|[17298](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17298/src)|오큰수|스택|⭕️|
+|2022.02.09|백준|[18258](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_18258/src)|큐2|큐|⭕️|
+|2022.02.09|백준|[2164](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2164/src)|카드2|큐|⭕️|
+|2022.02.09|백준|[11866](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11866/src)|요세푸스 문제0|큐|⭕️|
+|2022.02.09|백준|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐|💢|
+|2022.02.11|백준|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비|⭕️|
+|2022.02.11|백준|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비|⭕️|
+|2022.02.11|백준|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비|⭕️|
+|2022.02.15|백준|[2468](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2468/src)|안전영역|IM대비||
+|2022.02.15|백준|[2589](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2589/src)|보물섬|IM대비||
+|2022.02.15|백준|[10158](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10158/src)|개미|IM대비||
+|2022.02.15|백준|[1715](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1715/src)|카드정렬하기|IM대비||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

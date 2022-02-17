@@ -177,9 +177,9 @@ DaaEun_Algorithm
 |2022.02.11|백준|[2309](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2309/src)|일곱난쟁이|IM대비|⭕️|
 |2022.02.11|백준|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비|⭕️|
 |2022.02.11|백준|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비|⭕️|
+|2022.02.16|백준|[10158](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10158/src)|개미|IM대비|⭕️|
 |2022.02.15|백준|[2468](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2468/src)|안전영역|IM대비||
 |2022.02.15|백준|[2589](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2589/src)|보물섬|IM대비||
-|2022.02.15|백준|[10158](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10158/src)|개미|IM대비||
 |2022.02.15|백준|[1715](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1715/src)|카드정렬하기|IM대비||
 
 ## ❔ 문제 출처

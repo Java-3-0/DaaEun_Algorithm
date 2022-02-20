@@ -131,21 +131,37 @@ DaaEun_Algorithm
     <td rowspan="4" >2022.02.17</td>
     <td align="left">IM대비_2468_안전영역</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">IM대비_2589_보물섬</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">IM대비_10158_개미</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">IM대비_1715_카드정렬</td>
     <td>박영길</td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.02.21</td>
+    <td align="left">IM대비_15650_N과 M</td>
+    <td>박기우</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2304_창고 다각형</td>
+    <td>박영길</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">BFS&DFS_60058_괄호변환</td>
+    <td>양다은</td>
     <td></td>
   </tr>
 </table>
@@ -178,9 +194,12 @@ DaaEun_Algorithm
 |2022.02.11|백준|[2605](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2605/src)|줄 세우기|IM대비|⭕️|
 |2022.02.11|백준|[2477](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2477/src)|참외밭|IM대비|⭕️|
 |2022.02.16|백준|[10158](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10158/src)|개미|IM대비|⭕️|
-|2022.02.15|백준|[2468](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2468/src)|안전영역|IM대비||
-|2022.02.15|백준|[2589](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2589/src)|보물섬|IM대비||
-|2022.02.15|백준|[1715](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1715/src)|카드정렬하기|IM대비||
+|2022.02.17|백준|[2468](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2468/src)|안전영역|IM대비|⭕️|
+|2022.02.18|백준|[2589](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2589/src)|보물섬|IM대비|⭕️|
+|2022.02.18|백준|[1715](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1715/src)|카드정렬하기|IM대비|⭕️|
+|2022.02.19|백준|[15650](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_15650/src)|N과 M (2)|IM대비|⭕️|
+|2022.02.20|백준|[2304](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2304/src)|창고 다각형|IM대비|⭕️|
+|2022.02.20|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

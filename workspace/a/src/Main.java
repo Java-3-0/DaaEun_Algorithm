@@ -16,5 +16,6 @@ public class Main {
 		st = new StringTokenizer(br.readLine(), " ");
 		
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 	}
 }

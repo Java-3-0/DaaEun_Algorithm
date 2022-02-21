@@ -152,16 +152,32 @@ DaaEun_Algorithm
     <td rowspan="3" >2022.02.21</td>
     <td align="left">IM대비_15650_N과 M</td>
     <td>박기우</td>
-    <td></td>
+    <td>❌</td>
   </tr>
    <tr align="center">
     <td align="left">IM대비_2304_창고 다각형</td>
     <td>박영길</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">BFS&DFS_60058_괄호변환</td>
     <td>양다은</td>
+    <td>🔺</td>
+  </tr>
+    <tr align="center">
+    <td rowspan="3" >2022.02.24</td>
+    <td align="left">IM대비_10157_자리배정</td>
+    <td>전선영</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2116_주사위 쌓기</td>
+    <td>김태윤</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2559_수열</td>
+    <td>임도영</td>
     <td></td>
   </tr>
 </table>
@@ -199,7 +215,10 @@ DaaEun_Algorithm
 |2022.02.18|백준|[1715](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1715/src)|카드정렬하기|IM대비|⭕️|
 |2022.02.19|백준|[15650](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_15650/src)|N과 M (2)|IM대비|⭕️|
 |2022.02.20|백준|[2304](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2304/src)|창고 다각형|IM대비|⭕️|
-|2022.02.20|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS||
+|2022.02.21|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS|💢|
+|2022.02.22|백준|[10157](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10157/src)|자리배정|IM대비||
+|2022.02.22|백준|[2116](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2116/src)|주사위 쌓기|IM대비||
+|2022.02.22|백준|[2559](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2559/src)|수열|IM대비||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

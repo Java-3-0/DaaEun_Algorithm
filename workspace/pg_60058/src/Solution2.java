@@ -1,19 +1,31 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
+/*
+class Solution {
+    public String solution(String p) {
+        String answer = "";
+        return answer;
+    }
+}
+ */
 
-public class Solution {
+public class Solution2 {
 	
 	static StringBuilder sb = new StringBuilder();
 	
-	public String solution(String p) throws Exception {
-		char[] str = p.toCharArray();
-		LinkedList<Character> test = new LinkedList<Character>();
+	public static void main(String[] args) throws Exception {
+		LinkedList<Character> p = new LinkedList<Character>();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		char[] str = br.readLine().toCharArray();
 		for (int i = 0; i < str.length; i++) {
-			test.add(str[i]);
+			p.add(str[i]);
 		}
-		divideBracket(test);
-		return sb.toString();
+		divideBracket(p);
+		System.out.println(sb.toString());
 	}
 	
 	public static void divideBracket(LinkedList<Character> p) {
@@ -44,27 +56,23 @@ public class Solution {
 			for(Character ch : u) {
 				sb.append(ch);
 			}
+//			sb.append(u.toString());
 			divideBracket(v);
 		} else {
-			divideBracket(makeCorrectBracket(u, v)); 
+			divideBracket(makeCorrectBracket(u, v)); // <-이거 구현부터 시작
 		}
 	}
 	
 	public static LinkedList<Character> makeCorrectBracket(LinkedList<Character> u, LinkedList<Character> v) {
 		LinkedList<Character> temp = new LinkedList<Character>();
 		temp.add('(');
-		// 4-2. 문자열 v에 대해 1단계부터 재귀적으로 수행한 결과 문자열을 이어 붙입니다.
 		for (int i = 0; i < v.size(); i++) {
 			temp.add(v.get(i));
 		}
 		temp.add(')');
 		
-		for (int i = 1; i < u.size()-1; i++) {
-			if(u.get(i) == '(') {
-				temp.add(')');
-			} else {
-				temp.add('(');
-			}
+		for (int i = u.size()-2; i > 0; i--) {
+			temp.add(u.get(i));
 		}
 		return temp;
 	}

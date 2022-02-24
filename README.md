@@ -10,6 +10,7 @@ DaaEun_Algorithm
 🖋 조장 : 🤴임도영    
 🖋 조원 : 👨‍💻김태윤 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
 
+## 🌿스터디 일정표 - [Notion](https://smooth-fig-7f7.notion.site/2022-04ec1e27409940e5a2cbda4186534077)
 
 ## 🗓 일정 
 - 2022.01.20 : 첫 만남
@@ -168,17 +169,17 @@ DaaEun_Algorithm
     <td rowspan="3" >2022.02.24</td>
     <td align="left">IM대비_10157_자리배정</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">IM대비_2116_주사위 쌓기</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">IM대비_2559_수열</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
 </table>
 
@@ -216,9 +217,19 @@ DaaEun_Algorithm
 |2022.02.19|백준|[15650](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_15650/src)|N과 M (2)|IM대비|⭕️|
 |2022.02.20|백준|[2304](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2304/src)|창고 다각형|IM대비|⭕️|
 |2022.02.21|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS|💢|
-|2022.02.22|백준|[10157](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10157/src)|자리배정|IM대비||
-|2022.02.22|백준|[2116](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2116/src)|주사위 쌓기|IM대비||
-|2022.02.22|백준|[2559](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2559/src)|수열|IM대비||
+|2022.02.24|백준|[10157](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10157/src)|자리배정|IM대비|⭕️|
+|2022.02.24|백준|[2116](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2116/src)|주사위 쌓기|IM대비|⭕️|
+|2022.02.24|백준|[2559](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2559/src)|수열|IM대비|⭕️|
+|2022.02.25|백준|[2578](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2578/src)|빙고|IM대비||
+|2022.02.25|백준|[2491](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2491/src)|수열|IM대비||
+|2022.02.25|백준|[2527](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2527/src)|직사각형|IM대비||
+|2022.02.25|백준|[2669](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2669/src)|직사각형 네개의 합집합의 면적 구하기|IM대비||
+|2022.02.25|백준|[2635](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2635/src)|수 이어가기|IM대비||
+|2022.02.25|백준|[1244](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1244/src)|스위치 켜고 끄기|IM대비||
+|2022.02.25|백준|[2628](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2628/src)|종이자르기|IM대비||
+|2022.02.25|백준|[10163](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10163/src)|색종이|IM대비||
+|2022.02.25|백준|[13300](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_13300/src)|방 배정|IM대비||
+|2022.02.25|백준|[14696](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_14696/src)||IM대비||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

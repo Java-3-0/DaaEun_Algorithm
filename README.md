@@ -181,6 +181,13 @@ DaaEun_Algorithm
     <td>임도영</td>
     <td>⭕️</td>
   </tr>
+  </tr>
+    <tr align="center">
+    <td rowspan="1" >2022.02.28</td>
+    <td align="left">오프라인 미팅</td>
+    <td>ALL</td>
+    <td>🥂</td>
+  </tr>
 </table>
 
 
@@ -230,7 +237,7 @@ DaaEun_Algorithm
 |2022.02.25|백준|[2628](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2628/src)|종이자르기|IM대비||
 |2022.02.25|백준|[10163](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10163/src)|색종이|IM대비||
 |2022.02.25|백준|[13300](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_13300/src)|방 배정|IM대비||
-|2022.02.25|백준|[14696](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_14696/src)||IM대비||
+|2022.02.25|백준|[14696](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_14696/src)|딱지놀이|IM대비||
 
 ## ❔ 문제 출처
 [Baekjoon](https://www.acmicpc.net/)

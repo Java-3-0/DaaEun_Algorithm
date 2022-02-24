@@ -220,6 +220,7 @@ DaaEun_Algorithm
 |2022.02.24|백준|[10157](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10157/src)|자리배정|IM대비|⭕️|
 |2022.02.24|백준|[2116](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2116/src)|주사위 쌓기|IM대비|⭕️|
 |2022.02.24|백준|[2559](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2559/src)|수열|IM대비|⭕️|
+|2022.02.24|백준|[12927](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_12927/src)|배수 스위치|IM대비|⭕️|
 |2022.02.25|백준|[2578](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2578/src)|빙고|IM대비||
 |2022.02.25|백준|[2491](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2491/src)|수열|IM대비||
 |2022.02.25|백준|[2527](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2527/src)|직사각형|IM대비||

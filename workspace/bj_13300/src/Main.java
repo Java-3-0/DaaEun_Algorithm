@@ -39,7 +39,7 @@ public class Main {
 		int s = 0;
 		for(Student student : students) {
 			if()
-		}
+		}\\
 		
 	}
 }

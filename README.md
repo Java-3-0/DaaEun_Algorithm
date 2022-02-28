@@ -10,7 +10,8 @@ DaaEun_Algorithm
 🖋 조장 : 🤴임도영    
 🖋 조원 : 👨‍💻김태윤 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
 
-## 🌿스터디 일정표 - [Notion](https://smooth-fig-7f7.notion.site/2022-04ec1e27409940e5a2cbda4186534077)
+## 🌿스터디 일정표 
+- 영길형이 관리중 [Notion](https://smooth-fig-7f7.notion.site/2022-04ec1e27409940e5a2cbda4186534077)
 
 ## 🗓 일정 
 - 2022.01.20 : 첫 만남

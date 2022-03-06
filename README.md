@@ -263,9 +263,9 @@ DaaEun_Algorithm
 |2022.03.02|백준|[10163](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_10163/src)|색종이|IM대비|⭕️|
 |2022.03.03|백준|[2635](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2635/src)|수 이어가기|IM대비|⭕️|
 |2022.03.03|백준|[14696](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_14696/src)|딱지놀이|IM대비|⭕️|
-|2022.03.05|백준|[1593](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1593/src)|문자 해독|||
-|2022.03.05|백준|[1446](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1446/src)|지름길|||
-|2022.03.05|백준|[4885](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4485/src)|녹색 옷 입은 애가 젤다지?|||
+|2022.03.06|백준|[1593](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1593/src)|문자 해독||⭕️|
+|2022.03.07|백준|[1446](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1446/src)|지름길|||
+|2022.03.07|백준|[4885](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4485/src)|녹색 옷 입은 애가 젤다지?|||
 |2022.03.03|백준|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀||
 |2022.03.03|백준|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스||
 |2022.03.03|백준|1436|영화감독 숌|브루트 포스||

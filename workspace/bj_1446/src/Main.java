@@ -9,23 +9,23 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 // BJ 1446.지름길
-// kb
-// ms
+// 11716 kb
+// 80 ms
 public class Main {
 	
 	static class Edge implements Comparable<Edge>{
-		int from, to, minDistance;
+		int from, to, shortcut;
 
-		public Edge(int from, int to, int minDistance) {
+		public Edge(int from, int to, int shortcut) {
 			super();
 			this.from = from;
 			this.to = to;
-			this.minDistance = minDistance;
+			this.shortcut = shortcut;
 		}
 
 		@Override
 		public int compareTo(Edge o) {
-			return this.minDistance - o.minDistance;
+			return this.from != o.from ? this.from - o.from : this.to - o.to;
 		}
 	}
 	
@@ -46,74 +46,42 @@ public class Main {
 			if(to > D) continue;
 			
 			edgeList.add(new Edge(from, to, shortcut));
-			edgeList.add(new Edge(from, to, to-from));
 		}
 		
 		Collections.sort(edgeList);
-		for (Edge edge : edgeList) {
-			System.out.println(edge.from + " " + edge.to + " " + edge.minDistance);
-		}
+//		for (Edge edge : edgeList) {
+//			System.out.println(edge.from + " " + edge.to + " " + edge.shortcut);
+//		}
 
-		int[] distance = new int[D];		// 출발지에서 자신으로 오는 최소비용
-		boolean[] visited = new boolean[D];	// 최소비용 확정여부
-		PriorityQueue<Edge> pQueue = new PriorityQueue<Edge>();
+		int[] distance = new int[D+1];		// 출발지에서 자신으로 오는 최소비용
 		
 		Arrays.fill(distance, Integer.MAX_VALUE);
-		int start = 0;
-		distance[start] = 0;	// 시작점 0으로
-		pQueue.offer(new Edge(start, end, distance[start]));
 		
-		while(!pQueue.isEmpty()) {
-			// 1단계 : 최소비용이 확정되지 않은 정점 중 최소비용의 정점 선택
-			Edge current = pQueue.poll();
-			
-			if(visited[current.no]) continue;	// 코드 추가하지 않아도, 잘 수행됨. --> 그래도 아래 불필요한 동작과정 할 필요없어짐
-			
-			visited[current.no] = true;
-			
-			// 2단계 : 선택된 정점을 경유지로 하여 아직 최소비용이 확정되지 않은 다른 정점의 최소비용 고려
-			for (int j = 0; j < V; j++) {
-				if(!visited[j] && adjMatrix[current.no][j] != 0 && 
-						distance[j] > distance[current.no] + adjMatrix[current.no][j]) {
-					distance[j] = distance[current.no] + adjMatrix[current.no][j];
-					pQueue.offer(new Vertex(j, distance[j]));
+		int start = 0;
+		distance[start] = 0;
+		
+		for (Edge edge : edgeList) { // 지름길 갯수
+			int from = edge.from;
+			int to = edge.to;
+			int shortcut = edge.shortcut;
+			for (int j = start; j < D; j++) {	//이동거리 
+				if(j == from) {
+					int temp = distance[j] + shortcut;
+					if(distance[to] > temp) {
+						distance[to] = temp;
+						start = j;
+						break;
+					}
 				}
-			}
+				distance[j+1] = Math.min(distance[j+1], distance[j]+1);
+				
+			}//for j end
+//			System.out.println(Arrays.toString(distance));
+		}//for edge end
+		for (int j = start; j < D; j++) {
+			distance[j+1] = Math.min(distance[j+1], distance[j]+1);
 		}
+//		System.out.println(Arrays.toString(distance));
+		System.out.println(distance[D]);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 // BJ 1774.우주신과의 교감
@@ -21,53 +22,28 @@ public class Main {
 	}
 	
 	static class Edge implements Comparable<Edge>{
-		int from, to;
-		int weight;
-
-		public Edge(int from, int to, int weight) {
+		int start;
+		double weight;
+		
+		public Edge(int start, double weight) {
 			super();
-			this.from = from;
-			this.to = to;
+			this.start = start;
 			this.weight = weight;
 		}
 
 		@Override
 		public int compareTo(Edge o) {
-			return this.weight - o.weight;
+			if(this.weight > o.weight) return 1;
+			else if(this.weight == o.weight) return 0;
+			else return -1;
 		}
-	}
-	
-	static int N, M;
-	static int[] parents;
-	static ArrayList<Edge> edgeList;
-	
-	// 단위집합 생성
-	public static void makeSet() {
-		parents = new int[N];
-		for (int i = 0; i < N; i++) {
-			parents[i] = i;
-		}
-	}
-	// a의 집합 찾기 : a의 대표자 찾기
-	public static int findSet(int a) {
-		if(a == parents[a]) return a;
-		return parents[a] = findSet(parents[a]);
-	}
-	// a, b 두 집합 합치기
-	public static boolean union(int a, int b) {
-		int aRoot = findSet(a);
-		int bRoot = findSet(b);
-		if(aRoot == bRoot) return false;
-		
-		parents[bRoot] = aRoot;
-		return true;
 	}
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
 		
 		ArrayList<Pos> pos = new ArrayList<Pos>();
 		for (int i = 0; i < N; i++) {
@@ -77,61 +53,47 @@ public class Main {
 			pos.add(new Pos(x,y));
 		}
 		
-		ArrayList<Edge> alreadyEdge = new ArrayList<Edge>();
-		for (int i = 0; i < M; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			int from = Integer.parseInt(st.nextToken());
-			int to = Integer.parseInt(st.nextToken());
-			alreadyEdge.add(new Edge(Math.min(from, to), Math.max(from, to), 0));
-		}
-		
-		edgeList = new ArrayList<Edge>();
+		double[][] adjmatrix = new double[N][N];
 		for (int i = 0; i < N; i++) {
-			for(Edge aEdge : alreadyEdge) {
-				for (int j = i+1; j < N; j++) {
-					int weight = 0;
-					if(aEdge.from != i || aEdge.to == j) {
-						continue;
-					} else {
-						int weight = (int) (Math.pow((pos.get(i).x-pos.get(j).x), 2) + Math.pow((pos.get(i).y-pos.get(j).y), 2));
-					}
-					edgeList.add(new Edge(i+1, j+1, weight));
-				}
+			for (int j = i+1; j < N; j++) {
+				double weight = Math.sqrt(Math.pow(pos.get(i).x - pos.get(j).x, 2) + Math.pow(pos.get(i).y - pos.get(j).y, 2));
+				adjmatrix[i][j] = weight;
+				adjmatrix[j][i] = weight;
 			}
 		}
 		
-		Collections.sort(edgeList);
-		makeSet();
-		
-		int result = 0;
-		int cnt = 0;
-		
-		for(Edge edge : edgeList) {
-			if(un)
+		PriorityQueue<Edge> pQueue = new PriorityQueue<Edge>();
+		for (int i = 0; i < M; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			int from = Integer.parseInt(st.nextToken()) - 1;
+			int to = Integer.parseInt(st.nextToken()) - 1;
+			adjmatrix[from][to] = 0.00;
+			adjmatrix[to][from] = 0.00;
 		}
 		
+		boolean[] isVisited = new boolean[N];
 		
+		double minPath = 0;
+		int cnt = 0;
+		pQueue.offer(new Edge(0, 0.00));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		while(!pQueue.isEmpty()) {
+			Edge cur = pQueue.poll();
+			int curStart = cur.start;
+			double curWeight = cur.weight;
+			
+			if(isVisited[curStart]) continue;
+			
+			isVisited[curStart] = true;
+			minPath += curWeight;
+			cnt++;
+			
+			if(cnt == N) break;
+			
+			for (int i = 0; i < N; i++) {
+				if(!isVisited[i]) pQueue.offer(new Edge(i, adjmatrix[curStart][i]));
+			}
+		}
+		System.out.printf("%.2f", minPath);
 	}
 }

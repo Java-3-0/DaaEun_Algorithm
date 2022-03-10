@@ -216,17 +216,17 @@ DaaEun_Algorithm
     <td rowspan="3" >2022.03.10</td>
     <td align="left">1238_파티</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">92335_k진수에서 소수 개수 구하기</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">1774_우주신과의 교감</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
 </table>
 
@@ -283,8 +283,8 @@ DaaEun_Algorithm
 |2022.03.07|백준|[1446](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1446/src)|지름길|다익스트라|⭕️|
 |2022.03.07|백준|[4885](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4485/src)|녹색 옷 입은 애가 젤다지?|다익스트라|⭕️|
 |2022.03.08|백준|[1238](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1238/src)|파티|다익스트라|⭕️|
-|2022.03.09|백준|[1774](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1774/src)|우주신과의 교감|||
-|2022.03.09|프로그래머스|[92335](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_92335/src)|k진수에서 소수 개수 구하기|||
+|2022.03.09|백준|[1774](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1774/src)|우주신과의 교감||💢|
+|2022.03.09|프로그래머스|[92335](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_92335/src)|k진수에서 소수 개수 구하기||⭕️|
 |2022.03.03|백준|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀||
 |2022.03.03|백준|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스||
 |2022.03.03|백준|1436|영화감독 숌|브루트 포스||

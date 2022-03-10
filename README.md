@@ -301,7 +301,7 @@ DaaEun_Algorithm
 |2022.03.08|백준|[1238](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1238/src)|파티|다익스트라|⭕️|
 |2022.03.09|백준|[1774](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1774/src)|우주신과의 교감|최소신장트리(MST)|💢|
 |2022.03.09|프로그래머스|[92335](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_92335/src)|k진수에서 소수 개수 구하기||⭕️|
-|2022.03.10|백준|[1774](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1774/src)|우주신과의 교감|최소신장트리(MST)||
+|2022.03.10|백준|[1774](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1774/src)|우주신과의 교감|최소신장트리(MST)|⭕️|
 |2022.03.11|백준|[14890](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_14890/src)|경사로|||
 |2022.03.11|백준|[11404](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11404/src)|플로이드|||
 |2022.03.11|백준|[17281](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17281/src)|⚾|||

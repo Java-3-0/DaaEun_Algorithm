@@ -1,14 +1,12 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 // BJ 1774.우주신과의 교감
-// kb
-// ms
+// 40120 kb
+// 288 ms
 public class Main {
 	
 	static class Pos{

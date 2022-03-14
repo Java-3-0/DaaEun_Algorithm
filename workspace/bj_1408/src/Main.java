@@ -3,8 +3,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // BJ 1408.24
-// kb
-// ms
+// 11728 kb
+// 88 ms
 public class Main {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,9 +21,6 @@ public class Main {
 		
 		int currentTime = currentHH*3600 + currentMM*60 + currentSS;
 		int dohyeonTime = dohyeonHH*3600 + dohyeonMM*60 + dohyeonSS;
-		
-//		if(currentTime == 0) currentTime = 24%3600;
-//		if(dohyeonTime == 0) dohyeonTime = 24%3600;
 		
 		int remainTime = 0;
 		if(currentTime < dohyeonTime) {

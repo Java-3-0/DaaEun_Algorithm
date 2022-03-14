@@ -254,7 +254,8 @@ DaaEun_Algorithm
     <td>ALL</td>
     <td>⭕️</td>
   </tr>
-</tale>
+</table>
+
 
 
 ## 🚥 진행 테이블

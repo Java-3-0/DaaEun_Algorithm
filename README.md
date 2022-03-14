@@ -31,6 +31,189 @@ DaaEun_Algorithm
     <td><b>check</b></td>
   </tr>
   <tr align="center">
+    <td rowspan="2" >2022.03.17</td>
+    <td align="left">17471_게리맨더링</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">20055_컨베이어 벨트 위의 로봇</td>
+    <td>김태윤</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.03.14</td>
+    <td align="left">14890_경사로</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">17281_⚾</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">11404_플로이드</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.03.10</td>
+    <td align="left">1238_파티</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">92335_k진수에서 소수 개수 구하기</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">1774_우주신과의 교감</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.03.07</td>
+    <td align="left">슬라이딩윈도우_1593_문자 해독</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+   <tr align="center">
+    <td align="left">다익스트라_1446_지름길</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">다익스트라_4485_녹색 옷 입은 애가 젤다지?</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.03.03</td>
+    <td align="left">IM대비_10문제</td>
+    <td>ALL</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.02.28</td>
+    <td align="left">오프라인 미팅</td>
+    <td>ALL</td>
+    <td>🥂</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.02.24</td>
+    <td align="left">IM대비_10157_자리배정</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2116_주사위 쌓기</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2559_수열</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.02.21</td>
+    <td align="left">IM대비_15650_N과 M</td>
+    <td>박기우</td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2304_창고 다각형</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">BFS&DFS_60058_괄호변환</td>
+    <td>양다은</td>
+    <td>🔺</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="4" >2022.02.17</td>
+    <td align="left">IM대비_2468_안전영역</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2589_보물섬</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_10158_개미</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_1715_카드정렬</td>
+    <td>박영길</td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3" >2022.02.14</td>
+    <td align="left">IM대비_2309_일곱난쟁이</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+   <tr align="center">
+    <td align="left">IM대비_2605_줄 세우기</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">IM대비_2477_참외밭</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="6" >2022.02.10</td>
+    <td align="left">스택_9012_괄호</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+   <tr align="center">
+    <td align="left">스택_4949_균형잡힌 세상</td>
+    <td>박기우</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">스택_1874_스택수열</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">스택_17298_오큰수</td>
+    <td></td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
+    <td align="left">큐_11866_요세푸스 문제 0</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">큐_1966_프린터 큐</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2" >2022.02.07</td>
+    <td align="left">스택_10828_스택</td>
+    <td>박영길</td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
+    <td align="left">스택_10773_제로</td>
+    <td>박기우</td>
+    <td>❌</td>
+  </tr>
+  <tr align="center">
     <td rowspan="8" >2022.02.04</td>
     <td align="left">재귀_2447_별 찍기</td>
     <td>임도영</td>
@@ -70,190 +253,6 @@ DaaEun_Algorithm
     <td align="left">2월 스터디 계획 구체화</td>
     <td>ALL</td>
     <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="2" >2022.02.07</td>
-    <td align="left">스택_10828_스택</td>
-    <td>박영길</td>
-    <td>❌</td>
-  </tr>
-  <tr align="center">
-    <td align="left">스택_10773_제로</td>
-    <td>박기우</td>
-    <td>❌</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="6" >2022.02.10</td>
-    <td align="left">스택_9012_괄호</td>
-    <td>양다은</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">스택_4949_균형잡힌 세상</td>
-    <td>박기우</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">스택_1874_스택수열</td>
-    <td>임도영</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">스택_17298_오큰수</td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr align="center">
-    <td align="left">큐_11866_요세푸스 문제 0</td>
-    <td>전선영</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">큐_1966_프린터 큐</td>
-    <td>김태윤</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="3" >2022.02.14</td>
-    <td align="left">IM대비_2309_일곱난쟁이</td>
-    <td>양다은</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">IM대비_2605_줄 세우기</td>
-    <td>박기우</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">IM대비_2477_참외밭</td>
-    <td>박영길</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="4" >2022.02.17</td>
-    <td align="left">IM대비_2468_안전영역</td>
-    <td>전선영</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">IM대비_2589_보물섬</td>
-    <td>김태윤</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">IM대비_10158_개미</td>
-    <td>임도영</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">IM대비_1715_카드정렬</td>
-    <td>박영길</td>
-    <td>❌</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="3" >2022.02.21</td>
-    <td align="left">IM대비_15650_N과 M</td>
-    <td>박기우</td>
-    <td>❌</td>
-  </tr>
-   <tr align="center">
-    <td align="left">IM대비_2304_창고 다각형</td>
-    <td>박영길</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">BFS&DFS_60058_괄호변환</td>
-    <td>양다은</td>
-    <td>🔺</td>
-  </tr>
-    <tr align="center">
-    <td rowspan="3" >2022.02.24</td>
-    <td align="left">IM대비_10157_자리배정</td>
-    <td>전선영</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">IM대비_2116_주사위 쌓기</td>
-    <td>김태윤</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">IM대비_2559_수열</td>
-    <td>임도영</td>
-    <td>⭕️</td>
-  </tr>
-  </tr>
-    <tr align="center">
-    <td rowspan="1" >2022.02.28</td>
-    <td align="left">오프라인 미팅</td>
-    <td>ALL</td>
-    <td>🥂</td>
-  </tr>
-  </tr>
-    <tr align="center">
-    <td rowspan="1" >2022.03.03</td>
-    <td align="left">IM대비_10문제</td>
-    <td>ALL</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="3" >2022.03.07</td>
-    <td align="left">슬라이딩윈도우_1593_문자 해독</td>
-    <td>양다은</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">다익스트라_1446_지름길</td>
-    <td>박기우</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">다익스트라_4485_녹색 옷 입은 애가 젤다지?</td>
-    <td>박영길</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="3" >2022.03.10</td>
-    <td align="left">1238_파티</td>
-    <td>전선영</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">92335_k진수에서 소수 개수 구하기</td>
-    <td>김태윤</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">1774_우주신과의 교감</td>
-    <td>임도영</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="3" >2022.03.14</td>
-    <td align="left">14890_경사로</td>
-    <td>양다은</td>
-    <td>⭕️</td>
-  </tr>
-   <tr align="center">
-    <td align="left">17281_⚾</td>
-    <td>박기우</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td align="left">11404_플로이드</td>
-    <td>박영길</td>
-    <td>⭕️</td>
-  </tr>
-  <tr align="center">
-    <td rowspan="2" >2022.03.17</td>
-    <td align="left">17471_게리맨더링</td>
-    <td>임도영</td>
-    <td></td>
-  </tr>
-   <tr align="center">
-    <td align="left">20055_컨베이어 벨트 위의 로봇</td>
-    <td>김태윤</td>
-    <td></td>
   </tr>
 </tale>
 

@@ -232,16 +232,27 @@ DaaEun_Algorithm
     <td rowspan="3" >2022.03.14</td>
     <td align="left">14890_경사로</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td align="left">17281_⚾</td>
     <td>박기우</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">11404_플로이드</td>
     <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="2" >2022.03.17</td>
+    <td align="left">17471_게리맨더링</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td align="left">20055_컨베이어 벨트 위의 로봇</td>
+    <td>김태윤</td>
     <td></td>
   </tr>
 </tale>
@@ -306,6 +317,7 @@ DaaEun_Algorithm
 |2022.03.12|백준|[11404](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_11404/src)|플로이드|플로이드 와샬|⭕️|
 |2022.03.12|백준|[17281](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_17281/src)|⚾|구현|⭕️|
 |2022.03.13|백준|[4386](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4386/src)|별자리만들기|최소신장트리(MST)|⭕️|
+|2022.03.14|백준|[1408](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1408/src)|24||⭕️|
 |2022.03.03|백준|17472|다리만들기 2|||
 |2022.03.03|백준|2887|행성터널|||
 |2022.03.03|백준|1786|찾기|||

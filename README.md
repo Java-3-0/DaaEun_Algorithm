@@ -31,15 +31,31 @@ DaaEun_Algorithm
     <td><b>check</b></td>
   </tr>
   <tr align="center">
+    <td rowspan="3" >2022.03.22</td>
+    <td align="left">4195_친구 네트워크</td>
+    <td>양다은</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">17952_과제는 끝나지 않아!</td>
+    <td>박기우</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">1541_잃어버린 괄호</td>
+    <td>박영길</td>
+    <td></td>
+  </tr>
+  <tr align="center">
     <td rowspan="2" >2022.03.17</td>
     <td align="left">17471_게리맨더링</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">20055_컨베이어 벨트 위의 로봇</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td rowspan="3" >2022.03.14</td>
@@ -271,7 +287,10 @@ DaaEun_Algorithm
 |2022.03.03|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS||
 |2022.03.03|백준|16236|아기 상어|||
 |2022.03.03|백준|2615|오목|||
-|2022.03.16|백준|17471|게리맨더링||⭕️|
+|2022.03.17|백준|4195|친구 네트워크|해시||
+|2022.03.17|백준|17952|과제는 끝나지 않아!|구현||
+|2022.03.17|백준|1541|잃어버린 괄호|그리디||
+|2022.03.16|백준|17471|게리맨더링|구현|⭕️|
 |2022.03.16|백준|20055|컨베이어 벨트 위의 로봇|구현|⭕️|
 |2022.03.14|백준|[1408](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1408/src)|24||⭕️|
 |2022.03.13|백준|[4386](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_4386/src)|별자리만들기|최소신장트리(MST)|⭕️|

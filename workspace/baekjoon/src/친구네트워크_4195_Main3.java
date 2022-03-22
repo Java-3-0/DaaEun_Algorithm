@@ -38,15 +38,19 @@ public class 친구네트워크_4195_Main3 {
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st = null;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		int TC = Integer.parseInt(br.readLine());
 		for (int tc = 0; tc < TC; tc++) {
 			HashMap<String, Integer> map = new HashMap<String, Integer>();
 			F = Integer.parseInt(br.readLine());
+			
 			makeSet();
+			
 			int idx = 0;
 			for (int f = 0; f < F; f++) {
 				st = new StringTokenizer(br.readLine(), " ");
 				int[] value = new int[2];
+				
 				for (int i = 0; i < 2; i++) {
 					String name = st.nextToken();
 					if(map.containsKey(name)) {
@@ -57,6 +61,7 @@ public class 친구네트워크_4195_Main3 {
 					}
 				}
 				union(value[0], value[1]);
+				
 				sb.append((-1)*parents[value[0]]).append("\n");
 			}//for f end
 		}//for tc end

@@ -33,7 +33,7 @@ DaaEun_Algorithm
   <tr align="center">
     <td rowspan="2" >2022.03.24</td>
     <td align="left">11657_타임머신</td>
-    <td>임도영</td>
+    <td>전선</td>
     <td></td>
   </tr>
   <tr align="center">

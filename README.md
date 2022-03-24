@@ -31,15 +31,31 @@ DaaEun_Algorithm
     <td><b>check</b></td>
   </tr>
   <tr align="center">
+    <td rowspan="3" >2022.03.28</td>
+    <td align="left">16235_나무 재테크</td>
+    <td>양다은</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">2508_사탕 박사 고창영</td>
+    <td>박기우</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left"></td>
+    <td>박영길</td>
+    <td></td>
+  </tr>
+  <tr align="center">
     <td rowspan="2" >2022.03.24</td>
     <td align="left">11657_타임머신</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">17142_연구소3</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td rowspan="3" >2022.03.22</td>
@@ -298,6 +314,8 @@ DaaEun_Algorithm
 |2022.03.03|백준|16236|아기 상어|||
 |2022.03.03|백준|2615|오목|||
 |2022.03.23|백준|17472|다리만들기 2|||
+|2022.03.23|백준|2508|사탕 박사 고창영|||
+|2022.03.23|백준|16235|나무 재테크|||
 |2022.03.24|백준|11657|타임머신|벨만-포드|⭕️|
 |2022.03.22|백준|17142|연구소 3|BFS, 브루트포스|⭕️|
 |2022.03.19|백준|3079|입국심사|이분탐색|⭕️|

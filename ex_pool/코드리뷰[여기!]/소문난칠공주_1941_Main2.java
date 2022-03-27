@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 75488 kb
-// 460 ms
-public class 소문난칠공주_1941_Main {
+// 73992 kb
+// 388 ms
+public class 소문난칠공주_1941_Main2 {
 	
 	static int[] dr = {0, 0, -1, 1};
 	static int[] dc = {-1, 1, 0, 0};
@@ -42,11 +42,6 @@ public class 소문난칠공주_1941_Main {
 		if(paCnt[1] == 4) return;
 		
 		if(cnt == 7) {
-//			for (int i = 0; i < 25; i++) {
-//				System.out.print(isSelected[i]? i : "X");	
-//				System.out.print(" ");					
-//			}
-//			System.out.println();
 			int[] seats = new int[7];
 			int idx = 0;
 			for (int i = 0; i < 25; i++) {
@@ -55,7 +50,6 @@ public class 소문난칠공주_1941_Main {
 			if(bfs(seats)) answer++;
 			return;
 		}
-		
 		
 		for (int i = start; i < 25; i++) {
 			if(isSelected[i]) continue;
@@ -76,6 +70,7 @@ public class 소문난칠공주_1941_Main {
 		boolean[] isVisited = new boolean[7];
 		queue.offer(seats[0]);
 		isVisited[0] = true;
+		int cnt = 1;
 		
 		while(!queue.isEmpty()) {
 			int cur = queue.poll();
@@ -92,30 +87,15 @@ public class 소문난칠공주_1941_Main {
 					if(nr * 5 + nc == seats[i]) {
 						queue.offer(seats[i]);
 						isVisited[i] = true;
+						cnt++;
 					}
 				}
 			}//4방탐색 end
 		}//while end
 		
-		for(boolean is : isVisited) {
-			if(!is) {
-				isPossible = false;
-				break;
-			}
+		if(cnt != 7) {
+			isPossible = false;
 		}
 		return isPossible;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }

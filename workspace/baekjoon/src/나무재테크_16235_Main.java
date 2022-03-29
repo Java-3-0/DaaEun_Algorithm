@@ -1,13 +1,14 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 // kb
 // ms
-// 시간초과, M개의 데이터보다 한 곳에 나무를 모아서 저장하여 불러오는 게, 더 효율적
+// 시간초과, M개의 데이터보다 한 곳에 나무를 모아서 저장하여 불러오는 게, 더 효율적 ---> 아니였다.. 정렬이랑 리스트 삭제 안해서 그럼
 public class 나무재테크_16235_Main {
 	
 	static int[] dr = {-1, -1, -1, 0, 0, 1, 1, 1};
@@ -49,7 +50,7 @@ public class 나무재테크_16235_Main {
 			}
 		}
 		
-		ArrayList<Tree> tree = new ArrayList<Tree>();
+		LinkedList<Tree> tree = new LinkedList<Tree>();
 		for (int m = 0; m < M; m++) {
 			st = new StringTokenizer(br.readLine(), " ");
 			int x = Integer.parseInt(st.nextToken()) - 1;
@@ -59,10 +60,11 @@ public class 나무재테크_16235_Main {
 		}
 		
 		for (int k = 0; k < K; k++) {
-		
+			// 정렬하기
+			Collections.sort(tree);
 			//봄
 			int end = tree.size() - 1;
-			ArrayList<Tree> rottedTree  = new ArrayList<Tree>();
+			LinkedList<Tree> rottedTree  = new LinkedList<Tree>();
 			for (int i = end; i >= 0; i--) {
 				int x = tree.get(i).x;
 				int y = tree.get(i).y;
@@ -78,13 +80,13 @@ public class 나무재테크_16235_Main {
 			}
 			
 			//여름
-			end = rottedTree.size();
-			for (int i = 0; i < end; i++) {
+			end = rottedTree.size()-1;
+			for (int i = end; i >= 0; i--) {
 				int x = rottedTree.get(i).x;
 				int y = rottedTree.get(i).y;
 				int age = rottedTree.get(i).age;
-				
 				food[x][y] += age/2;
+				rottedTree.remove(i);
 			}
 
 			//가을

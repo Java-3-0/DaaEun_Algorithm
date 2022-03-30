@@ -1,12 +1,34 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 // kb
 // ms
+// 시간초과, M개의 데이터보다 한 곳에 나무를 모아서 저장하여 불러오는 게, 더 효율적
 public class 나무재테크_16235_Main {
+	
+	static int[] dr = {-1, -1, -1, 0, 0, 1, 1, 1};
+	static int[] dc = {-1, 0, 1, -1, 1, -1, 0, 1};
+	
+	static class Tree implements Comparable<Tree>{
+		int x, y, age;
+
+		public Tree(int x, int y, int age) {
+			super();
+			this.x = x;
+			this.y = y;
+			this.age = age;
+		}
+
+		@Override
+		public int compareTo(Tree o) {	// 나이 내림차순 정렬
+			return o.age - this.age;
+		}
+	}
+	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -27,22 +49,70 @@ public class 나무재테크_16235_Main {
 			}
 		}
 		
-		int[][] tree = new int[M][3];
+		ArrayList<Tree> tree = new ArrayList<Tree>();
 		for (int m = 0; m < M; m++) {
 			st = new StringTokenizer(br.readLine(), " ");
-			for (int i = 0; i < 3; i++) {
-				tree[m][i] = Integer.parseInt(st.nextToken());
-			}
+			int x = Integer.parseInt(st.nextToken()) - 1;
+			int y = Integer.parseInt(st.nextToken()) - 1;
+			int age = Integer.parseInt(st.nextToken());
+			tree.add(new Tree(x, y, age));
 		}
-		
 		
 		for (int k = 0; k < K; k++) {
 		
 			//봄
+			int end = tree.size() - 1;
+			ArrayList<Tree> rottedTree  = new ArrayList<Tree>();
+			for (int i = end; i >= 0; i--) {
+				int x = tree.get(i).x;
+				int y = tree.get(i).y;
+				int age = tree.get(i).age;
+				
+				if(food[x][y] < age) {
+					rottedTree.add(new Tree(x, y, age));
+					tree.remove(i);
+					continue;
+				}
+				food[x][y] -= age;
+				tree.get(i).age++;
+			}
 			
 			//여름
+			end = rottedTree.size();
+			for (int i = 0; i < end; i++) {
+				int x = rottedTree.get(i).x;
+				int y = rottedTree.get(i).y;
+				int age = rottedTree.get(i).age;
+				
+				food[x][y] += age/2;
+			}
+
 			//가을
+			end = tree.size();
+			for (int i = 0; i < end; i++) {
+				int x = tree.get(i).x;
+				int y = tree.get(i).y;
+				int age = tree.get(i).age;
+
+				if(age % 5 == 0) {
+					for (int d = 0; d < 8; d++) {
+						int nr = x + dr[d];
+						int nc = y + dc[d];
+						
+						if(nr<0 || nr>=N || nc<0 || nc>=N) continue;
+						tree.add(new Tree(nr, nc, 1));
+					}
+				}
+			}
+
 			//겨울
-		}
+			for (int r = 0; r < N; r++) {
+				for (int c = 0; c < N; c++) {
+					food[r][c] += A[r][c];
+				}
+			}
+		}// for k end
+		
+		System.out.println(tree.size());
 	}
 }

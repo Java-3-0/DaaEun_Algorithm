@@ -31,20 +31,31 @@ DaaEun_Algorithm
     <td><b>check</b></td>
   </tr>
   <tr align="center">
-    <td rowspan="3" >2022.03.28</td>
+    <td rowspan="4" >2022.03.31</td>
     <td align="left">16235_나무 재테크</td>
     <td>양다은</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">2508_사탕 박사 고창영</td>
-    <td>박기우</td>
+    <td align="left">1941_소문난 칠공주</td>
+    <td>박영길</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">1941_소문난 </td>
-    <td>박영길</td>
+    <td align="left">211_암호코드</td>
+    <td>전선영</td>
     <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">9935_문자열 폭발</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.03.28</td>
+    <td align="left">2508_사탕 박사 고창영</td>
+    <td>박기우</td>
+    <td>❌</td>
   </tr>
   <tr align="center">
     <td rowspan="2" >2022.03.24</td>
@@ -314,7 +325,10 @@ DaaEun_Algorithm
 |2022.03.03|백준|16236|아기 상어|||
 |2022.03.03|백준|2615|오목|||
 |2022.03.23|백준|17472|다리만들기 2|||
-|2022.03.23|백준|16235|나무 재테크|||
+|2022.03.31|백준|2011|암호코드|DP||
+|2022.03.31|백준|9935|문자열 폭발|||
+|2022.03.30|백준|16235|나무 재테크|구현|⭕️|
+|2022.03.29|백준|1197|최소 스패닝 트리|MST|⭕️|
 |2022.03.27|백준|1941|소문난 칠공주|BFS, 조합|⭕️|
 |2022.03.25|백준|3020|개똥벌레|누적합|⭕️|
 |2022.03.24|백준|2508|사탕 박사 고창영|브루트포스|⭕️|

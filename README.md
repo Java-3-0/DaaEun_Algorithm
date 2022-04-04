@@ -30,26 +30,53 @@ DaaEun_Algorithm
     <td><b>PTB</b></td>
     <td><b>check</b></td>
   </tr>
+   <tr align="center">
+    <td rowspan="2" >2022.04.07</td>
+    <td align="left">17404_RGB거리 2</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">2565_전깃줄</td>
+    <td>전선영</td>
+    <td></td>
+  </tr>
+   <tr align="center">
+    <td rowspan="3" >2022.04.04</td>
+    <td align="left">1149_RGB거리</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">2156_포도주 시식</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">11048_이동하기</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
   <tr align="center">
     <td rowspan="4" >2022.03.31</td>
     <td align="left">16235_나무 재테크</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">1941_소문난 칠공주</td>
     <td>박영길</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
-    <td align="left">211_암호코드</td>
+    <td align="left">2011_암호코드</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">9935_문자열 폭발</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td rowspan="1" >2022.03.28</td>
@@ -327,6 +354,11 @@ DaaEun_Algorithm
 |2022.03.23|백준|17472|다리만들기 2|||
 |2022.03.31|백준|2011|암호코드|DP||
 |2022.03.31|백준|9935|문자열 폭발|||
+|2022.04.05|백준|2565|전깃줄|DP||
+|2022.04.05|백준|17404|RGB거리2|DP||
+|2022.04.04|백준|11048|이동하기|DP|⭕️|
+|2022.04.03|백준|2156|포도주 시식|DP|⭕️|
+|2022.04.03|백준|1149|RGB거리|DP|⭕️|
 |2022.03.30|백준|16235|나무 재테크|구현|⭕️|
 |2022.03.29|백준|1197|최소 스패닝 트리|MST|⭕️|
 |2022.03.27|백준|1941|소문난 칠공주|BFS, 조합|⭕️|

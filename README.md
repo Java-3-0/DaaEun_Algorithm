@@ -8,7 +8,8 @@ DaaEun_Algorithm
 🖋 목표 2 : 프로그래머스 레벨 3   
 🖋 목표 3 : SSAFY TEST ALL-PASS   
 🖋 조장 : 🤴임도영    
-🖋 조원 : 👨‍💻김태윤 👨‍💻박기우 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
+🖋 조원 : 👨‍💻김태윤 👨‍💻박영길 👩‍💻양다은 👩‍💻전선영   
+🖋 기만 : 👨‍💻박기우  
 
 ## 🌿스터디 일정표 
 - [Notion](https://smooth-fig-7f7.notion.site/2022-04ec1e27409940e5a2cbda4186534077)
@@ -34,12 +35,12 @@ DaaEun_Algorithm
     <td rowspan="2" >2022.04.07</td>
     <td align="left">17404_RGB거리 2</td>
     <td>임도영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">2565_전깃줄</td>
     <td>전선영</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td rowspan="3" >2022.04.04</td>

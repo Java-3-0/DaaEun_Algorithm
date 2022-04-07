@@ -7,6 +7,18 @@ public class 전깃줄_2565_Main {
 	
 	static int[] overLine = new int[501];
 	
+	static class line implements Comparable<line>{
+		int a, b;
+
+		public line(int a, int b) {
+			super();
+			this.a = a;
+			this.b = b;
+		}
+		
+		
+	}
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		StringTokenizer st = null;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

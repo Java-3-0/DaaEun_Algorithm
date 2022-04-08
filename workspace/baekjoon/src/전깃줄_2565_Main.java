@@ -37,6 +37,6 @@ public class 전깃줄_2565_Main {
 		for (int i = 0; i < overLineCnt.length; i++) {
 			
 		}
-		
+		// index부터 끝까지 최소 몇개를 끊어야하는가
 	}
 }

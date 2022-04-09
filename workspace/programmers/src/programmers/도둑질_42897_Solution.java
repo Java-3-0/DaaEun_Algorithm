@@ -13,6 +13,8 @@ public class 도둑질_42897_Solution {
 	public int solution(int[] money) {
         int answer = 0;
         int N = money.length;
+        
+        //[훔친여부][0:안훔침 1:훔침][N]
         int[][][] dp = new int[2][2][N];
         
         dp[0][0][0] = 0;

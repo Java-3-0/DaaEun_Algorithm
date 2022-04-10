@@ -32,7 +32,7 @@ DaaEun_Algorithm
     <td><b>check</b></td>
    </tr>
    <tr align="center">
-    <td rowspan="2" >2022.04.11</td>
+    <td rowspan="3" >2022.04.11</td>
     <td align="left">10844_쉬운 계단 수</td>
     <td>양다은</td>
     <td></td>
@@ -44,7 +44,7 @@ DaaEun_Algorithm
   </tr>
   <tr align="center">
     <td align="left">11066_파일 합치기</td>
-    <td></td>
+    <td>박영길</td>
     <td></td>
   </tr>
   </tr>

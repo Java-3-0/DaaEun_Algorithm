@@ -9,9 +9,9 @@ public class Solution_1263_사람네트워크_양다은 {
 	
 	static int N;
 	static int[][] adjMatrix;
-	static final int INF = 9999999;
+	static final int INF = 999999;
 	
-	public static void main(String[] args) throws NumberFormatException, IOException {
+	public static void main(String[] args) throws IOException {
 		StringTokenizer st = null;
 		StringBuilder sb = new StringBuilder();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -31,11 +31,12 @@ public class Solution_1263_사람네트워크_양다은 {
 			
 			for (int k = 0; k < N; k++) {	//경유지
 				for (int i = 0; i < N; i++) {	//출발지
-					if(i==k) continue;
+//					if(i==k) continue;
 					for (int j = 0; j < N; j++) {	//도착지
-						if(i==j || k==j) continue;
-						if(adjMatrix[i][j] > adjMatrix[i][k]+adjMatrix[k][j]) {
-							adjMatrix[i][j] = adjMatrix[i][k]+adjMatrix[k][j];
+//						if(i==j || k==j) continue;
+						int tmp = adjMatrix[i][k]+adjMatrix[k][j];
+						if(adjMatrix[i][j] > tmp) {
+							adjMatrix[i][j] = tmp;
 						}
 					}
 				}
@@ -46,10 +47,11 @@ public class Solution_1263_사람네트워크_양다은 {
 				int sum = 0;
 				for (int j = 0; j < N; j++) {
 					sum += adjMatrix[i][j];
+					if(sum > minCC) break;
 				}
 				minCC = Math.min(minCC, sum);
 			}
-			sb.append("#" + tc + " " + minCC + "\n");
+			sb.append("#").append(tc).append(" ").append(minCC).append("\n");
 		}//for tc end
 		System.out.println(sb.toString());
 	}

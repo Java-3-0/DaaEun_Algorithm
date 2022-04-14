@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 public class 공유기설치_2110_Main {
 	
-	static int N, C;
+	static int N, C, min, max;
 	static int[] pos;
 	
 	public static void main(String[] args) throws IOException {
@@ -22,9 +22,23 @@ public class 공유기설치_2110_Main {
 		}
 		
 		Arrays.sort(pos);
-		/*
-		 * 
-		 */
 		
+		min = pos[0];
+		max = pos[N-1];
+	}
+	
+	public static void UpDown(int min, int max) {
+		
+		if(min == max) {
+			return;
+		}
+		
+		int mid = (min + max) / 2;
+		int cnt = 0;
+		for (int i = 0; i < N; i++) {
+			
+		}
+		
+		if()
 	}
 }

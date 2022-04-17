@@ -31,21 +31,37 @@ DaaEun_Algorithm
     <td><b>PTB</b></td>
     <td><b>check</b></td>
    </tr>
-   <tr align="center">
-    <td rowspan="3" >2022.04.14</td>
-    <td align="left">2110_공유기 설치</td>
-    <td>전선영</td>
+  <tr align="center">
+    <td rowspan="3" >2022.04.18</td>
+    <td align="left">1713_후보 추천하기</td>
+    <td>양다은</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">21611_마법사 상어와 블리자드</td>
+    <td>김태윤</td>
     <td></td>
   </tr>
   <tr align="center">
     <td align="left">1700_멀티탭 스케줄링</td>
-    <td>임도영</td>
+    <td>박영길</td>
     <td></td>
+  </tr>
+   <tr align="center">
+    <td rowspan="3" >2022.04.14</td>
+    <td align="left">2110_공유기 설치</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">1700_멀티탭 스케줄링</td>
+    <td>임도영</td>
+    <td>⭐</td>
   </tr>
   <tr align="center">
     <td align="left">11066_파일 합치기</td>
     <td>박영길</td>
-    <td></td>
+    <td>💢</td>
   </tr>
    <tr align="center">
     <td rowspan="3" >2022.04.11</td>
@@ -62,7 +78,6 @@ DaaEun_Algorithm
     <td align="left">11066_파일 합치기</td>
     <td>박영길</td>
     <td>💢</td>
-  </tr>
   </tr>
    <tr align="center">
     <td rowspan="2" >2022.04.07</td>
@@ -393,6 +408,8 @@ DaaEun_Algorithm
 |2022.04.11|백준|1700|멀티탭 스케줄링|||
 |2022.04.11|백준|2110|공유기 설치|||
 |2022.04.11|백준|11066|파일 합치기|||
+|2022.04.11|백준|1713|후보 추천하기|||
+|2022.04.11|백준|21611|마법사 상어와 |||
 |2022.04.10|백준|2565|전깃줄|DP|⭕️|
 |2022.04.10|프로그래머스|42897|도둑질|DP|⭕️|
 |2022.04.09|백준|17404|RGB거리2|DP|⭕️|

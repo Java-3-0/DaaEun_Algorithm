@@ -32,20 +32,31 @@ DaaEun_Algorithm
     <td><b>check</b></td>
    </tr>
   <tr align="center">
+    <td rowspan="2" >2022.04.21</td>
+    <td align="left">9657_돌 게임 3</td>
+    <td>임도영</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td align="left">12904_A와 B</td>
+    <td>박영길</td>
+    <td></td>
+  </tr>
+  <tr align="center">
     <td rowspan="3" >2022.04.18</td>
     <td align="left">1713_후보 추천하기</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">21611_마법사 상어와 블리자드</td>
     <td>김태윤</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td align="left">1700_멀티탭 스케줄링</td>
-    <td>박영길</td>
-    <td></td>
+    <td>전선영, 임도영</td>
+    <td>⭕️</td>
   </tr>
    <tr align="center">
     <td rowspan="3" >2022.04.14</td>
@@ -390,26 +401,17 @@ DaaEun_Algorithm
 ## 🚥 진행 테이블
 |Date|Site|No.|Name|Category|State|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|2022.03.03|백준|2887|행성터널|||
-|2022.03.03|백준|1786|찾기|||
-|2022.03.03|백준|[2447](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_2447/src)|별찍기|재귀||
-|2022.03.03|백준|[7568](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_7568/src)|덩치|브루트 포스||
-|2022.03.03|백준|1436|영화감독 숌|브루트 포스||
-|2022.03.03|백준|[1874](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1874/src)|스택 수열|스택||
-|2022.03.03|백준|[1966](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/bj_1966/src)|프린터 큐|큐||
-|2022.03.03|프로그래머스|[60058](https://github.com/Java-3-0/DaaEun_Algorithm/tree/main/workspace/pg_60058/src)|괄호 변환|BFS&DFS||
-|2022.03.03|백준|16236|아기 상어|||
 |2022.03.03|백준|2615|오목|||
 |2022.03.23|백준|17472|다리만들기 2|||
 |2022.03.31|백준|2011|암호코드|DP||
 |2022.03.31|백준|9935|문자열 폭발|||
 |2022.04.11|백준|1600|말이 되고픈 원숭이|||
 |2022.04.11|백준|1194|달이 차오른다, 가자|||
-|2022.04.11|백준|1700|멀티탭 스케줄링|||
-|2022.04.11|백준|2110|공유기 설치|||
 |2022.04.11|백준|11066|파일 합치기|||
-|2022.04.11|백준|1713|후보 추천하기|||
-|2022.04.11|백준|21611|마법사 상어와 |||
+|2022.04.11|백준|2110|공유기 설치|||
+|2022.04.120|백준|1700|멀티탭 스케줄링|||
+|2022.04.20|백준|9657|돌 게임 3|||
+|2022.04.20|백준|12904|A와 B|||
 |2022.04.17|백준|1713|후보 추천하기|구현|⭕️|
 |2022.04.10|백준|2565|전깃줄|DP|⭕️|
 |2022.04.10|프로그래머스|42897|도둑질|DP|⭕️|

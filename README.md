@@ -22,7 +22,7 @@ DaaEun_Algorithm
 
 <table>
   <tr>
-    <td colspan="1"><b>2월의 계획</b></td>
+    <td colspan="1"><b>일정</b></td>
      <td colspan="3">월/ 목 10 pm.~ (주 최소 5문제) </td>
   </tr>
   <tr align="center">
@@ -31,6 +31,12 @@ DaaEun_Algorithm
     <td><b>PTB</b></td>
     <td><b>check</b></td>
    </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.04.213</td>
+    <td align="left">한강나들이</td>
+    <td>ALL</td>
+    <td></td>
+  </tr>
   <tr align="center">
     <td rowspan="2" >2022.04.21</td>
     <td align="left">9657_돌 게임 3</td>

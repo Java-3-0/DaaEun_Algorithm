@@ -32,13 +32,7 @@ DaaEun_Algorithm
     <td><b>check</b></td>
    </tr>
   <tr align="center">
-    <td rowspan="1" >2022.04.213</td>
-    <td align="left">한강나들이</td>
-    <td>ALL</td>
-    <td></td>
-  </tr>
-  <tr align="center">
-    <td rowspan="2" >2022.04.21</td>
+    <td rowspan="2" >2022.04.25</td>
     <td align="left">9657_돌 게임 3</td>
     <td>임도영</td>
     <td></td>
@@ -47,6 +41,18 @@ DaaEun_Algorithm
     <td align="left">12904_A와 B</td>
     <td>박영길</td>
     <td></td>
+  </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.04.23</td>
+    <td align="left">한강나들이</td>
+    <td>ALL</td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td rowspan="1" >2022.04.21</td>
+    <td align="left">자습</td>
+    <td>ALL</td>
+    <td>💯</td>
   </tr>
   <tr align="center">
     <td rowspan="3" >2022.04.18</td>

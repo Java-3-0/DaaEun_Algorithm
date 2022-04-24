@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class 돌게임3_9657_Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		
+		
+		
+		
+		sc.close();
+	}
+}

@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-// 12888kb
-// 128 ms
-public class 돌게임3_9657_Main {
+// 12888 kb
+// 116 ms
+public class 돌게임2_9656_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		
-		if(N % 7 == 0 || N % 7 == 2) System.out.println("CY");
-		else System.out.println("SK");
+		if(N % 2 == 0) System.out.println("SK");
+		else System.out.println("CY");
 		
 		sc.close();
 	}

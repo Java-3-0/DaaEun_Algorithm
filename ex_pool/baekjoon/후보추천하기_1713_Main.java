@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -75,13 +76,26 @@ public class 후보추천하기_1713_Main {
 		}//for i end
 		
 		//no 오름차순 정렬을 위한 다른 방법 있을까요?
-		List<Integer> answer = new ArrayList<Integer>();
-		for (int i = 0; i < reco.size(); i++) {
-			answer.add(reco.get(i).no);
-		}
-		Collections.sort(answer);
-		for (int no : answer) {
-			sb.append(no).append(" ");
+//		List<Integer> answer = new ArrayList<Integer>();
+//		for (int i = 0; i < reco.size(); i++) {
+//			answer.add(reco.get(i).no);
+//		}
+//		Collections.sort(answer);
+		
+		//해결방안 1
+//		Collections.sort(reco, (o1, o2) -> (o1.no - o2.no));
+		
+		//해결방안 2
+		Collections.sort(reco, new Comparator<Student>() {
+			@Override
+			public int compare(Student o1, Student o2) {
+				return o1.no - o2.no;
+			}
+		});
+		
+		
+		for (Student stu : reco) {
+			sb.append(stu.no).append(" ");
 		}
 		System.out.println(sb.toString());
 	}

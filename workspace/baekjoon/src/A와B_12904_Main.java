@@ -15,6 +15,8 @@ public class A와B_12904_Main {
 		
 		
 		
+		
+		
 		boolean answer = true;
 		if(answer) System.out.println(1);
 		else System.out.println(0);

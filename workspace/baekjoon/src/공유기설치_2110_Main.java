@@ -38,7 +38,6 @@ public class 공유기설치_2110_Main {
 		for (int i = 0; i < N; i++) {
 			
 		}
-		
-		if()
+	
 	}
 }

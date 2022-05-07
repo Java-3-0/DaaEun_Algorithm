@@ -29,6 +29,6 @@ public class 음계_2920_Main {
 		}
 		
 		if(change == 1) System.out.println("ascending");
-		else System.out.println("descending");
+		else System.out.println("decscending");
 	}
 }

@@ -32,25 +32,52 @@ DaaEun_Algorithm
     <td><b>check</b></td>
    </tr>
   <tr align="center">
-    <td rowspan="4" >2022.05.02</td>
-    <td align="left">14425_문자열 집합</td>
+    <td rowspan="3" >2022.05.16</td>
+    <td align="left"></td>
     <td>박영길</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">20921_그렇고 그런 사이</td>
+    <td align="left">16471_작은 수 내기</td>
     <td>임도영</td>
     <td></td>
   </tr>
   <tr align="center">
-    <td align="left">59042_없어진 기록 찾기</td>
+    <td align="left">62284_우유와 요거트가 담긴 장바구니</td>
     <td>양다은</td>
     <td></td>
   </tr>
   <tr align="center">
+    <td rowspan="2" >2022.05.12</td>
+    <td align="left">16724_피리부는 사나이</td>
+    <td>전선영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">17070_파이프 옮기기 1</td>
+    <td>김태윤</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="4" >2022.05.09</td>
+    <td align="left">14425_문자열 집합</td>
+    <td>박영길</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">20921_그렇고 그런 사이</td>
+    <td>임도영</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
+    <td align="left">59042_없어진 기록 찾기</td>
+    <td>양다은</td>
+    <td>⭕️</td>
+  </tr>
+  <tr align="center">
     <td align="left">59041_동명 동물 수 찾기</td>
     <td>양다은</td>
-    <td></td>
+    <td>⭕️</td>
   </tr>
   <tr align="center">
     <td rowspan="2" >2022.04.28</td>
@@ -447,6 +474,10 @@ DaaEun_Algorithm
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |2022.04.11|백준|2110|공유기 설치|||
 |2022.04.28|백준|1700|멀티탭 스케줄링|||
+|2022.05.13|백준|16471|작은 수 내기|||
+|2022.05.13|프로그래머스|62284|우유와 요거트가 담긴 장바구니|SQL||
+|2022.05.12|백준|17070|파이프 옮기기 1|DP|⭕️|
+|2022.05.12|백준|16724|피리부는 사나이|그래프이론|⭕️|
 |2022.05.01|백준|2615|오목|브루트포스|⭕️|
 |2022.04.30|프로그래머스|59041|동명 동물 수 찾기|SQL-GROUP BY|⭕️|
 |2022.04.30|프로그래머스|59042|없어진 기록 찾기|SQL-JOIN|⭕️|

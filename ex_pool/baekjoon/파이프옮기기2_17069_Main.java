@@ -3,9 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 11644 kb
-// 76 ms
-public class 파이프옮기기1_17070_Main {
+// 11860 kb
+// 92 ms
+public class 파이프옮기기2_17069_Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
 		StringTokenizer st = null;
@@ -21,7 +21,7 @@ public class 파이프옮기기1_17070_Main {
 		}
 	
 		// 0: 가로, 1: 대각선, 2: 세로
-		int[][][] dp = new int[3][N][N];
+		long[][][] dp = new long[3][N][N];
 		// 초기화
 		dp[0][0][1] = 1;
 		for (int c = 2; c < N; c++) {

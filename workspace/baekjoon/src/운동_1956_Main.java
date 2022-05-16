@@ -4,7 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// 71%에서 에러,,,
+// 58080 kb
+// 540 ms
 public class 운동_1956_Main {
 
 	static int V, E;
@@ -66,11 +67,11 @@ public class 운동_1956_Main {
 			}
 		}
 		
-		int answer = Integer.MAX_VALUE;
+		int answer = INF;
 		for(int i=1; i<V+1; ++i) {
 			answer = Math.min(answer, distance[i][i]);
 		}
 		
-		System.out.println(answer == Integer.MAX_VALUE ? -1 : answer);
+		System.out.println(answer == INF ? -1 : answer);
 	}
 }
